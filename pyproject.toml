@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "runall"
+version = "0.1.0"
+description = "Run functions registered by @runthat decorator with a set of progress bars."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Roberto Fernandes Tavares Neto" }]
+requires-python = ">=3.10"
+dependencies = [
+    "textual>=8.2.8",
+    "twine>=7.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/runall"]
