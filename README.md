@@ -21,15 +21,15 @@ files that have been processed.
 - [Textual](https://textual.textualize.io/) 8.2.8 or later (installed automatically)
 - [uv](https://docs.astral.sh/uv/) (recommended for development)
 
-## Installation (by clonning)
-
-Clone the repository and install the project with its dependencies:
+## Installation
 
 ```sh
-uv sync
+pip install runall
 ```
 
-This creates a local virtual environment and installs `runall` in editable mode.
+```sh
+uv add runall
+```
 
 ## Usage
 
