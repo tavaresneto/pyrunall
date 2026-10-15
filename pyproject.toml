@@ -12,9 +12,13 @@ license-files = ["LICENSE"]
 authors = [{ name = "Roberto Fernandes Tavares Neto" }]
 requires-python = ">=3.10"
 dependencies = [
-    "textual>=8.2.8",
-    "twine>=7.0.0",
+    "textual>=8.2.8"
 ]
+
+[project.urls]
+Homepage = "https://github.com/tavaresneto/pyrunall"
+Repository = "https://github.com/tavaresneto/pyrunall"
+Issues = "https://github.com/tavaresneto/pyrunall/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/runall"]
