@@ -89,6 +89,10 @@ resolve correctly:
 uv run python examples/demo.py
 ```
 
+The result will be something like that:
+
+![runall running the demo, with one progress bar per function and the latest executions listed below](https://raw.githubusercontent.com/tavaresneto/pyrunall/main/tui.png)
+
 ## Configuration
 
 The configuration is a plain dictionary with the following keys:
